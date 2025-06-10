@@ -46,7 +46,7 @@ section{
     margin-top: 5px;
 }
 
-p{
+section p{
     margin: 16px 0;
     line-height: 150%;
 }
@@ -75,7 +75,7 @@ footer{
        
 }
 
-.placa{
+.principal div{
     width: 100%;
     height: 150px;
     position: absolute;
@@ -83,13 +83,13 @@ footer{
     background-color: #26011cb0;
 }
 
-h1{
+.principal div h1{
     text-align: center;
     font-size: 40px;
     color: #fff;
     margin: 20px 0 auto;
 }
-.placa h2{
+.principal div h2{
     text-align: center;
     font-size: 30px;
     color: #fff;
