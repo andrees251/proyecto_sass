@@ -18,7 +18,7 @@ nav{
 nav ul{
     list-style: none;
 }
-nav li{
+nav ul li{
     display:inline-block;
     padding: 5px;
     transition: all 1s;
@@ -33,9 +33,7 @@ nav ul li:hover{
     background: #1dac92;
     color: #26011C;
 }
-nav ul li a:hover{
-     color: #26011C;
-}
+
 
 section{
     color: #26011C;
