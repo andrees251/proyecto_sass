@@ -1,0 +1,34 @@
+.formulario{
+    width: 80%;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #01403A;
+    background: #01403A;
+    color: white;
+ 
+    input, textarea{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        border: 1px solid #ccc;
+
+    }
+
+}
+
+.guardar{
+    @include boton_base;
+    background-color: #4CAF50;
+    &:hover{
+        background-color: #044906;
+
+    }
+}
+ .cancelar{
+    @include boton_base;
+    background-color: #bd3c3c;
+    &:hover{
+        background-color: #fd5959;
+        
+    }
+ }
