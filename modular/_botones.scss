@@ -1,0 +1,24 @@
+//boton guardar
+.guardar{
+    @include boton-estilo(#4CAF50,#044906)
+
+}
+
+//boton cancelar
+.cancelar{
+    @include boton-estilo(#fc9d9d,#fd5959)
+
+}
+
+//boton informacion
+.info{
+    @include boton-estilo(blue, turquoise)
+
+}
+
+//boton oscuro
+.dark{
+    @include boton-estilo(black, gray)
+
+}
+

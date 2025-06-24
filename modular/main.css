@@ -112,6 +112,22 @@ footer h3 {
   border: 1px solid #ccc;
 }
 
+/* .guardar{
+    @include boton_base;
+    background-color: #4CAF50;
+    &:hover{
+        background-color: #044906;
+
+    }
+}
+ .cancelar{
+    @include boton_base;
+    background-color: #bd3c3c;
+    &:hover{
+        background-color: #fd5959;
+
+    }
+ } */
 .guardar {
   width: 100%;
   font-size: 16px;
@@ -136,8 +152,38 @@ footer h3 {
   border: none;
   cursor: pointer;
   transition: all 1s;
-  background-color: #bd3c3c;
+  background-color: #fc9d9d;
 }
 .cancelar:hover {
   background-color: #fd5959;
+}
+
+.info {
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+  background-color: blue;
+}
+.info:hover {
+  background-color: turquoise;
+}
+
+.dark {
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+  background-color: black;
+}
+.dark:hover {
+  background-color: gray;
 }/*# sourceMappingURL=main.css.map */
